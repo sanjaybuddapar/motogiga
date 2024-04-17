@@ -1,8 +1,8 @@
 {
-  "name": "urabalu",
+  "name": "motogiga",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/bull": "^4.10.0",
     "@types/node": "^20.12.7",
     "typescript": "^5.4.5"
   },
   "dependencies": {
     "@cmdcode/crypto-utils": "^2.4.6",
-    "@cmdcode/tapscript": "^1.4.6",
-    "bull": "^4.12.2"
+    "@cmdcode/tapscript": "^1.4.6"
   }
 }
