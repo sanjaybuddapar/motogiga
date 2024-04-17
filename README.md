@@ -3,6 +3,7 @@
 - 1st step is to download the repo (Code > Download as ZIP / Github / Github Desktop / etc).
   - Place them into a single folder by extracting them, take note of where this folder is.
 - 2nd step is to run `npm install` inside the folder (`cd folder` to get to the folder first).
+  - Make sure nodejs is on your PC, get it here: `https://nodejs.org/en`
   - Open a command terminal (cmd.exe on windows/terminal on mac/linux).
   - Type `cd folder-path-here` to open the folder.
   - Run `npm install` next after getting to the correct folder. 
