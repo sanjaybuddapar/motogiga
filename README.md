@@ -42,5 +42,5 @@
 You can edit the values that are sent to increase or decrease gas used. This is to send 200,000 transactions at ~15 sats/vb.
 By changing the values and numbers inside each of the commented lines, you can achieve different number of transactions, and different gas amounts.
 
-Full credit to: https://github.com/cryptosalomao
+Full credit to https://github.com/cryptosalomao
 I just made it do more txns, faster.
