@@ -6,7 +6,7 @@
 - 4th step is to create a UTXO with 10.1 tBTC in it and get that txID (you can do this by sending yourself 10.1 tBTC and waiting for it to confirm).
 - 5th step is to uncomment `transactionSplitterBasic(utxo).then(console.log);` and put your UTXO above it, then run `npx tsx index.ts`
 - 6th step is to wait for that TX to confirm and copy the output TX ID and recomment out this step.
-- 7th step is to put that tx ID in this line: `splitSplitter("txid here")`, then run `npx tsx index.ts`
+- 7th step is to put that tx ID in this line under step 1.5: `splitSplitter("txid here")`, then run `npx tsx index.ts`
 - 8th step is to wait for all 200 of those TXNs to confirm and recomment out this step.
 - 9th step is to uncomment all of the lines after 'step 2', so, the following:
   ```js
