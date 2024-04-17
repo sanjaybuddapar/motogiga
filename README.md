@@ -9,7 +9,8 @@
 - 7th step is to put that tx ID in this line: `splitSplitter("txid here")`, then run `npx tsx index.ts`
 - 8th step is to wait for all 200 of those TXNs to confirm and recomment out this step.
 - 9th step is to uncomment all of the lines after 'step 2', so, the following:
-  ```const filePath = 'output_txns.txt';
+  ```js
+  const filePath = 'output_txns.txt';
   
   // Create a readline interface
   const reader = readline.createInterface({
