@@ -63,7 +63,8 @@ I won't get into detail on how to up the gas values, because it'd start a gas wa
 Full credit to https://github.com/cryptosalomao
 I just made it do more txns, faster.
 
-Additional files:
+**Additional files:**
 - Python selenium bot which creates a new wallet, makes 5 new accounts, then attempts to swap.
 - Feel free to take this and extend it in any way you see fit. Works very well for automation.
 - Probably broken by now, but anyone is free to fix it and post commits.
+- The file is _selenium_bot_sybiler.py_, take a look if you want.
