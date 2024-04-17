@@ -7,12 +7,17 @@
   - Please use a fresh wallet, I don't want anyone asking if this is malicious (Spoiler, it isn't malicious but still...).
   - Be smart and only use automation on fresh wallets, it's not worth the risk any other way.
 - 4th step is to create a UTXO with 10.1 tBTC in it and get that txID (send yourself 10.1 tBTC and ***wait for confirm***).
+  - By sending your own account 10.1 tBTC you are creating a new unspent UTXO.
+  - Copy the ID from unisat wallet after hitting send by clicking "show in explorer" under the checkmark.
+  - The TX ID is the hash at the top, so copy that, add `:0` to the end of it, and paste it into `index.ts`
 - 5th step is to uncomment `transactionSplitterBasic(utxo).then(console.log);`, put your UTXO above it, then run `npx tsx index.ts`
   - This is located ***at the bottom*** of `index.ts`, to uncomment them remove the `//` before the line of code. 
 - 6th step is to ***wait for that TX to confirm*** and copy the output TX ID and recomment out this step.
+  - You can track the progress by going to `https://mempool.space/testnet` and pasting the TX_ID there.
 - 7th step is to put that tx ID in this line under step 1.5: `splitSplitter("txid here")`, then run `npx tsx index.ts`
   - This is located ***at the bottom*** of `index.ts`, to uncomment them remove the `//` before the line of code.
 - 8th step is to wait for all 200 of those TXNs to confirm and recomment out this step.
+  - You can track the progress by copying one of those IDs and going to `https://mempool.space/testnet` again.
 - 9th step is to uncomment all of the lines after 'step 2', so, the following:
   ```js
   const filePath = 'output_txns.txt';
