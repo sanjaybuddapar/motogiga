@@ -1,8 +1,8 @@
 # motogiga
  
-- 1st step is to download the repo.
-- 2nd step is to run `npm install` inside the repo folder.
-- 3rd step is to put your private key exported from unisat at the top.
+- 1st step is to download the repo (Code > Download as ZIP / Github / Github Desktop / etc).
+- 2nd step is to run `npm install` inside the repo folder (`cd folder` to get to the folder first).
+- 3rd step is to put your private key exported from unisat at the top (Unisat > Account # > ... > Export > Hex Key).
 - 4th step is to create a UTXO with 10.1 tBTC in it and get that txID (you can do this by sending yourself 10.1 tBTC and waiting for it to confirm).
 - 5th step is to uncomment `transactionSplitterBasic(utxo).then(console.log);` and put your UTXO above it, then run `npx tsx index.ts`
 - 6th step is to wait for that TX to confirm and copy the output TX ID and recomment out this step.
