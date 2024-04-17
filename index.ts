@@ -207,4 +207,4 @@ const utxo = "utxo here:0";
 // });
 
 // 3rd step
-// execute relayer.ts
+// execute relayer_no_redis.ts (npx tsx relayer_no_redis.ts)
