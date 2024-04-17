@@ -1,7 +1,11 @@
 # motogiga
  
 - 1st step is to download the repo (Code > Download as ZIP / Github / Github Desktop / etc).
-- 2nd step is to run `npm install` inside the repo folder (`cd folder` to get to the folder first).
+  - Place them into a single folder by extracting them, take note of where this folder is.
+- 2nd step is to run `npm install` inside the folder (`cd folder` to get to the folder first).
+  - Open a command terminal (cmd.exe on windows/terminal on mac/linux).
+  - Type `cd folder-path-here` to open the folder.
+  - Run `npm install` next after getting to the correct folder. 
 - 3rd step is to put your private key exported from unisat at the top (Unisat > Account # > ... > Export > Hex Key).
   - The place to put it is inside `index.ts`, at the top of the file where it says `YOUR PRIVATE KEY HERE`. 
   - Please use a fresh wallet, I don't want anyone asking if this is malicious (Spoiler, it isn't malicious but still...).
