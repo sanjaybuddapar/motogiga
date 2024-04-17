@@ -3,8 +3,7 @@
 - 1st step is to download the repo (Code > Download as ZIP / Github / Github Desktop / etc).
 - 2nd step is to run `npm install` inside the repo folder (`cd folder` to get to the folder first).
 - 3rd step is to put your private key exported from unisat at the top (Unisat > Account # > ... > Export > Hex Key).
-  - Please use a fresh wallet, I don't want anyone asking if this is malicious.
-  - (Spoiler, it isn't malicious but still...)
+  - Please use a fresh wallet, I don't want anyone asking if this is malicious (Spoiler, it isn't malicious but still...).
   - Be smart and only use automation on fresh wallets, it's not worth the risk any other way.
 - 4th step is to create a UTXO with 10.1 tBTC in it and get that txID (send yourself 10.1 tBTC and ***wait for confirm***).
 - 5th step is to uncomment `transactionSplitterBasic(utxo).then(console.log);`, put your UTXO above it, then run `npx tsx index.ts`
