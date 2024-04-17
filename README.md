@@ -4,10 +4,11 @@
 - 2nd step is to run `npm install` inside the repo folder (`cd folder` to get to the folder first).
 - 3rd step is to put your private key exported from unisat at the top (Unisat > Account # > ... > Export > Hex Key).
   - Please use a fresh wallet, I don't want anyone asking if this is malicious.
+  - (Spoiler, it isn't malicious but still...)
   - Be smart and only use automation on fresh wallets, it's not worth the risk any other way.
-- 4th step is to create a UTXO with 10.1 tBTC in it and get that txID (you can do this by sending yourself 10.1 tBTC and waiting for it to confirm).
-- 5th step is to uncomment `transactionSplitterBasic(utxo).then(console.log);` and put your UTXO above it, then run `npx tsx index.ts`
-- 6th step is to wait for that TX to confirm and copy the output TX ID and recomment out this step.
+- 4th step is to create a UTXO with 10.1 tBTC in it and get that txID (send yourself 10.1 tBTC and ***wait for confirm***).
+- 5th step is to uncomment `transactionSplitterBasic(utxo).then(console.log);`, put your UTXO above it, then run `npx tsx index.ts`
+- 6th step is to ***wait for that TX to confirm*** and copy the output TX ID and recomment out this step.
 - 7th step is to put that tx ID in this line under step 1.5: `splitSplitter("txid here")`, then run `npx tsx index.ts`
 - 8th step is to wait for all 200 of those TXNs to confirm and recomment out this step.
 - 9th step is to uncomment all of the lines after 'step 2', so, the following:
