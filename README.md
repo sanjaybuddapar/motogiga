@@ -29,7 +29,8 @@
   // Handle the 'close' event
   reader.on('close', () => {
    console.log('Finished reading the file.');
-  });```
+  });
+  ```
   Then run `npx tsx index.ts`
 - 10th and final step is to run relayer_no_redis.ts using `npx tsx relayer_no_redis.ts`.
 - Good job, you did it.
